@@ -1,0 +1,1 @@
+{"ssl":true,"host":"127.0.0.1","port":3307,"database":"testing_airbyte","password":"root","username":"root","tunnel_method":{"tunnel_method":"NO_TUNNEL"}}
