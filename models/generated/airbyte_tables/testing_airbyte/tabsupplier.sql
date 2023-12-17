@@ -22,8 +22,8 @@
 -- Final base SQL model
 -- depends_on: {{ ref('tabsupplier_ab3') }}
 select
-    supplier_code,
-    supplier_name,
+    supplier_code as supplier_code_samb,
+    supplier_name as supplier_name_samb,
     _airbyte_ab_id,
     _airbyte_emitted_at,
     {{ current_timestamp() }} as _airbyte_normalized_at,
