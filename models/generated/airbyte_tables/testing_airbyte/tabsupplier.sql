@@ -24,6 +24,7 @@
 select
     supplier_code as supplier_code_samb,
     supplier_name as supplier_name_samb,
+    _airbyte_tabsupplier_hashid
 from {{ ref('tabsupplier_ab3') }}
 -- tabsupplier from {{ source('testing_airbyte', '_airbyte_raw_tabsupplier') }}
 where 1 = 1
